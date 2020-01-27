@@ -271,8 +271,9 @@ function calc(x){
         document.getElementById('k' + ev).innerHTML = nf.format(hMber - hBer) + " Ft";
         document.getElementById('kE' + ev).innerHTML = nf.format(actualK) + " Ft";
 
-        fullK = nf.format(K15 + K16 + K17 + K18 + K19);
-        document.getElementById('fullK').innerHTML = fullK + " Ft";
+        const sum = K15 + K16 + K17 + K18 + K19;
+        document.getElementById('fullK').innerHTML = nf.format(sum) + " Ft";
+        visualization.run(sum);
     }else{
         document.getElementById('pb' + ev).innerHTML = 'Hibás adat';
         document.getElementById('pbE' + ev).innerHTML = 'Hibás adat';
@@ -288,8 +289,10 @@ function calc(x){
             document.getElementById('mszE' + ev).innerHTML = '';
             document.getElementById('k' + ev).innerHTML = '';
             document.getElementById('kE' + ev).innerHTML = '';
-            fullK = nf.format(K15 + K16 + K17 + K18 + K19);
-            document.getElementById('fullK').innerHTML = fullK + " Ft";
+
+            const sum = K15 + K16 + K17 + K18 + K19;
+            document.getElementById('fullK').innerHTML = nf.format(sum) + " Ft";
+            visualization.run(sum);
         }
     }
 
