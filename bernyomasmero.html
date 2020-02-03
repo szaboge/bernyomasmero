@@ -1,11 +1,13 @@
 <html lang="hu">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="bernyomasmero.css">
+    <link rel="stylesheet" href="styles/bernyomasmero.css">
     <link rel="stylesheet" href="bernyomasmero_mobil.css">
+    <link rel="stylesheet" href="styles/visualization.css">
     <link rel="shortcut icon" type="image/png" href="https://pedagogusok.hu/images/favicon.png">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
-    <script src="bernyomasmero.js"></script>
+    <script src="scripts/bernyomasmero.js"></script>
+    <script src="scripts/visualization.js"></script>
     <title>Bérnyomásmérő</title>
 </head>
 <body>
@@ -291,8 +293,14 @@
     <h1 id="fullK">
     </h1>
     <div id="visualization" class="visualization">
-        <img src="car.svg" id="car-colorful" class="car car-colorful">
-        <img src="car.svg" id="car-greyscale" class="car car-greyscale">
+        <div class="content-container">
+            <div class="image-wrapper">
+                <img src="assets/car.svg" class="car car-greyscale">
+            </div>
+            <div class="image-wrapper" id="image-wrapper" style="width: 0">
+                <img src="assets/car.svg" class="car car-colorful">
+            </div>
+        </div>
     </div>
 </div>
 </body>
