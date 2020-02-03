@@ -1,51 +1,51 @@
 body{
 	margin: 0;
-    padding: 0;
-    background-color: #ebe5e1;
-    background-image: url(body-bg.svg);
-    background-position: center, center;
-    background-size: 50vw auto, 50vw auto;
-    background-repeat-x: repeat;
-    background-repeat-y: no-repeat;
+	padding: 0;
+	background-color: #ebe5e1;
+	background-image: url(body-bg.svg);
+	background-position: center, center;
+	background-size: 50vw auto, 50vw auto;
+	background-repeat-x: repeat;
+	background-repeat-y: no-repeat;
 }
 h1{
-	width: 850px;
-    margin: 0;
-    margin-left: calc((100% - 640px)/2);
-    background: #6b6b6b;
-    color: white;
-    text-align: center;
-    line-height: 70px;
+	width: 700px;
+	margin: 0;
+	margin-left: calc((100% - 700px)/2);
+	background: #6b6b6b;
+	color: white;
+	text-align: center;
+	line-height: 70px;
 	border-radius: 20px 20px 0 0;
-    margin-top: 30px;
+	margin-top: 30px;
 }
 #hiba{
 	display: none;
-	width: 830px;
+	width: 680px;
 	padding: 10px;
 	background-color: #295e7d;
 	float: left;
 	transform: translate(-30px, 0);
 }
 #bekerosav{
-	width: 820px;
-    /* height: 220px; */
-    height: 160px;
-    margin-left: calc((100% - 640px)/2);
-    background: #292929;
-    color: white;
+	width: 670px;
+	/* height: 220px; */
+	height: 300px;
+	margin-left: calc((100% - 700px)/2);
+	background: #292929;
+	color: white;
 	padding-left: 30px;
 }
 #figy{
-    color: #44b9ff;
-    width: 830px;
-    background: black;
-    padding: 10px;
-    line-height: 40px;
-    margin: 0;
-    margin-bottom: 10px;
-    transform: translate(-30px, 0);
-    text-align: center;
+	color: #44b9ff;
+	width: 680px;
+	background: black;
+	padding: 10px;
+	line-height: 40px;
+	margin: 0;
+	margin-bottom: 10px;
+	transform: translate(-30px, 0);
+	text-align: center;
 }
 .evek{
 	float: left;
@@ -70,8 +70,8 @@ select{
 }
 
 #bersav{
-	width: 850px;
-	margin-left: calc((100% - 640px)/2);
+	width: 700px;
+	margin-left: calc((100% - 700px)/2);
 	float: left;
 	background: #454545;
 	border-radius: 0 0 20px 20px;
@@ -118,26 +118,29 @@ select{
 	padding: 10 0 0 5;
 }
 #bersav h2{
-	width: 830px;
-    float: left;
-    text-align: center;
-    background: #292929;
-    line-height: 50px;
-    color: white;
-    margin: 10px 0 0 0;
-    border-left: 10px solid #454545;
-    border-right: 10px solid #454545;
+	width: 680px;
+	float: left;
+	text-align: center;
+	background: #292929;
+	line-height: 50px;
+	color: white;
+	margin: 10px 0 0 0;
+	border-left: 10px solid #454545;
+	border-right: 10px solid #454545;
+}
+#berMinta{
+	margin-left: 25%;
 }
 #fullK{
-	width: 830px;
-    float: left;
-    text-align: center;
-    line-height: 70px;
-    color: red;
-    background: #c6c6c6;
-    margin: 0;
-    border-bottom: 15px solid #6b6b6b;
-    border-left: 10px solid #454545;
-    border-right: 10px solid #454545;
+	width: 680px;
+	float: left;
+	text-align: center;
+	line-height: 70px;
+	color: red;
+	background: #c6c6c6;
+	margin: 0;
+	border-bottom: 15px solid #6b6b6b;
+	border-left: 10px solid #454545;
+	border-right: 10px solid #454545;
 	border-radius: 0 0 20px 20px;
 }
