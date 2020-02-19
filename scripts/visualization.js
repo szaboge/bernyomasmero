@@ -20,7 +20,7 @@ const visualization = {
             this.addCar(percent > 1 ? 1 : percent);
             percent -= 1;
         }
-        this.scroll();
+        // this.scroll();
     },
     addCar(percent) {
         const car = new Car(this.colors[this.random(0, this.colors.length - 1)]);
